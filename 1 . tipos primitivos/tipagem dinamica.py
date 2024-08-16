@@ -1,8 +1,3 @@
-# tipagem estatica
-nome : str # cadeia
-idade : int # inteiro
-altura : float # real
-
 
 nome = "marta"
 idade = 20
