@@ -4,7 +4,7 @@ import os
 os.system("cls || clear") #limapando terminal.
 
 
-# tipagem estatica
+# tipagem estatica.
 nome : str # cadeia
 idade : int # inteiro
 altura : float # real
