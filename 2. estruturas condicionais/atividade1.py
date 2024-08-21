@@ -1,6 +1,4 @@
-import os
-os.system("cls || clear")
-
+v
 
 # solicitando dados.
 nome = input ("digite seu nome: ")
