@@ -11,4 +11,4 @@ for i in range(6):
     soma = soma + numero
 
     print(f"soma: {soma}")
-print("===fim===")
+print("===𝕗𝕚𝕞===")
