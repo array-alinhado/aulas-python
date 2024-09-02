@@ -1,13 +1,13 @@
 import os
 os.system("cls || clear")
 r = "S"
-soma = 0
+soma = 0 
 contador = 0
+
 for i in range(3):
     while r == "S":
        nota = float(input("digite sua nota: "))
        contador += 1
-       soma += nota
        r = (input("quer colocar mais uma nota? [S/N]")).upper()
        if nota < 0 or nota > 10:
 
