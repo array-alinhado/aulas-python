@@ -1,17 +1,8 @@
-import os
-os.system("cls || clear")
-import time
-moeda = int
-moeda = 1
-for c in range(0,3):
-    if moeda:
-        print("\npega")
+def desenhar_retangulo(largura, altura):
+    for _ in range(altura):
+        print('*' * largura)
 
-
-    print("\nPASSO")
-    print("pulo")
-    
-    time.sleep(1)
-
-print("\npasso")
-print("pego")
+# Exemplo de uso:
+largura = 10
+altura = 5
+desenhar_retangulo(largura, altura)
