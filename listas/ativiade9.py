@@ -3,12 +3,12 @@ os.system("cls || clear")
 
 def calculo_media(n1, n2):
     soma = n1 + n2
-    media = soma /2
+    media = soma / n2
     return media
 
-def reprovado_aprovador(media):
+def media_final(media):
     if media < 7:
-        print("reprovado")
+        print(f"reprovado")
     else:
         print("aprovado")
 
