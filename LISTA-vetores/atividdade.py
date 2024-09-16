@@ -10,3 +10,5 @@ for i in range(3):
 # saida 
 for i, nota in enumerate(vetor_notas):
     print(f"{i+1}ª nota: {nota}")
+
+    
