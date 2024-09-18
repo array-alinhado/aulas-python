@@ -12,8 +12,8 @@ lista_notas = [2,5, 10]
 for nota in lista_notas:
    print(nota)
 
-for nota in reversed(lista_notas):
-    print(nota)
+#for nota in reversed(lista_notas):
+   # print(nota)
 # ===========================
 # por indice
 # print(notas[0])
