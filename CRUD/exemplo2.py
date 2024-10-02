@@ -9,7 +9,7 @@ class Aluno:
     nome: str
     idade: int
 
-QTD = 2
+QTD = 1
 
 lista_alunos = []
 
@@ -21,16 +21,13 @@ for i in range(QTD):
     )
     lista_alunos.append(aluno)
 
-print("=== exibindo dados ====")
-
-
 nome_arquivo = "lista_alunos_SENAI.txt"
 
 with open(nome_arquivo, "a") as arquivo_alunos:
     #percorrendo vetor/lista
     for aluno in lista_alunos:
         #escrevendo no arquivo uma linha de cada vez.
-        arquivo_alunos.write(f"{aluno.nome}, {aluno.idade}\n")
+        arquivo_alunos.write(f"nome:{aluno.nome}, idade:{aluno.idade}\n")
 #fechando o arquivo
 arquivo_alunos.close()
 
